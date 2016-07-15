@@ -1,6 +1,6 @@
 language: node_js
 node_js: "5"
-before_script: npm install -g wcf-utils
+before_script: npm install -g wcfutils
 script: wcfutils
 branches:
   only: master
@@ -8,8 +8,10 @@ git:
   depth: 5
 env:
   global:
-    - IDENTIFIER=com.clanunknownsoldiers.plugin.base.tar
-    - FTP_HOST=ftp://thunderstorm.padarom.io/server/uploads/
+    - IDENTIFIER=com.clanunknownsoldiers.plugin.pages.tar
+    - FTP_HOST=ftp://thunderstorm.padarom.io/
+    - secure: "Ga86xpM4NuzkZ5jPUbNpoI9hZ4Y6vcyx3RFFCq3VAP57/Y1C5JC2FNUrAJAqRR3wLd6a4bl56HHSF1fGenzTcxqVdVyGIinlFG6zCw9oPBbJcBq6o8p8+ur3NELnC06UnieIvrIklMsMckZbrvQJeh0AlOjGFS928bTwfv7jd4zRyN0zx/c6cOMPbu+L7nm5FlShrfXYAHZJjnEJ+FuhD/EkF8r+yyW5VI38uPvh01tnb8NJqt+vm8bpAswxvrjJgYoqMs4lgXU9NEvThZh0j7kXoQ65VdeaAtAdC8ujdCZqnHNhaPgKSCKSUn17Mg29FGRfv2JYQHzvvXGwV/TdPyVcdSrZ+1GFEPXvwgkWk8t23+clbWGQxNekUPebFUHEv/do/dzlVUZNvUtTvdsEnI+D2Et8Y0w/sIkICzzC5nyd/qbVT/LFreh5CYP3o8sBZ3xawi9o0l89ULkWYSKiP21rUku78WoIPStcB/xp2WQUJABSAzf52PsQiSy5aiW0AdN4aGDYfPQDjCVyin/HNThg4fjIlynKTyfgGkQQMMnKQA/Ex7IuGbNMO0Vn9f6kBZ8QPR0+wyL1agPUBkcbdU8OUwNwF+AuVxhSHIXP9fdjxScxp5ir4Zk1hQP2XvafyAiz1bxCpzksAru3fq/LBDaWIrKEFtwGGQlKztrAXRI="
+    - secure: "MoOCcLCrEoX82OBfOygZ1RQPfyTUyJxDZqmGJAdkfFqPHBNq7jzozGRo/2HQlRImiGb6kzCmuJeWTsyC1YXkgWfRdmNyXirEFItJdeA5nqCWKi3H5Nw5MmfLn4taJkpQp1p3F2dB9WXbQd6eOVMTZFgHleCdOLnG20Yt9cpjkUZofJmcLr8iw5YJi+QBcR3L1An5W5i4yowVThz/czmcVIXC+OMYikDFEY2vo7uewPmIqvn6yuMJkcM5wDILTEhlmquwqC3lTsja0iwkFhiXaH2H92gQJchQAH+zZwrCqv8YJncuD4+KCavgIwxr8utgAz3QqS/lIOPKs/sY/QhbU94KQd/QwlcAK+pbQReZbKYAPmbjNBy8xA43mbTBV/4kEDsZ908DHpV/Dkrm3Dh2QmUerW9K5g9FORk0ouWLDmeSJC4JxWfrnf2Ve9bziC4z9zDux2S7f4UKY9FQMNnHE9ChCjt0SpLWXkAog6xnX64LnBdSVsVqkkO2nbKPuOFxH8wKgesQpvJPxxymuX3AboxpBbHKXZgp7qMlbwOVJmdjw1akMvfBw1iZRq/AROx8CszMWcmG8BxC68lO37bur5H3uSXA8GPN60vW7+k+OIofuEZ2NoBz5/OpFEjKIKhYunGAkXlRE6o5iXBuU/eZAbKydU2dFlny9x4CpRt+fZo="
 notifications:
       email: false
 
