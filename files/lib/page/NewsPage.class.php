@@ -19,7 +19,7 @@ class NewsPage extends AbstractPage
         return $list->objects;
     }
 
-    public function assignVariables() 
+    public function assignVariables()
     {
         // It is crucial to assign the template variables BEFORE calling the parent method in this case.
         // Otherwise the template will have already been rendered and variable assignment doesn't work.

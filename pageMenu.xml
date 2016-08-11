@@ -14,6 +14,13 @@
             <sortorder>2</sortorder>
         </pagemenuitem>
 
+        <pagemenuitem name="wcf.page.training.timeline">
+            <parent>wcf.page.training</parent>
+            <controller><![CDATA[wcf\page\TimelinePage]]></controller>
+            <position>header</position>
+            <sortorder>4</sortorder>
+        </pagemenuitem>
+
         <pagemenuitem name="wcf.page.pa.twitch">
             <parent>wcf.page.pa</parent>
             <controller><![CDATA[wcf\page\StreamersPage]]></controller>

@@ -7,7 +7,7 @@
 	<body{if $templateName|isset} id="tpl{$templateName|ucfirst}"{/if}>
 		<div class="content-wrapper">
 
-            {* Leave this in! *} {include file='header' sidebarOrientation='right' skipBreadcrumbs=true}
+            {* Leave this in! *} {include file='header' sidebarOrientation='right' hideHeader=true}
 
             <div class="container">
                 <div class="row">

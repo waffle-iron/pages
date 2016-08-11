@@ -1,5 +1,7 @@
-<?php namespace wcf\page;
+<?php
+namespace wcf\page;
 
-class HomePage extends AbstractPage {
-  public $activeMenuItem = 'wcf.page.home';
+class HomePage extends AbstractPage
+{
+    public $activeMenuItem = 'wcf.page.home';
 }

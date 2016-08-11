@@ -7,7 +7,7 @@
 	<body{if $templateName|isset} id="tpl{$templateName|ucfirst}"{/if}>
 		<div class="content-wrapper">
 
-            {* Leave this in! *} {include file='header' sidebarOrientation='right' skipBreadcrumbs=true}
+            {* Leave this in! *} {include file='header' sidebarOrientation='right' hideHeader=true}
 
             <div id="landing">
                 <div class="slider-container rev_slider_wrapper" style="height: 700px;">
@@ -60,19 +60,6 @@
                                      style="z-index: 5"
                                      data-transform_in="y:[100%];opacity:0;s:500;">brought to you by Engineering</div>
 
-                                <a class="tp-caption btn btn-lg btn-primary btn-slider-action"
-                                   data-hash
-                                   data-hash-offset="85"
-                                   href="#home-intro"
-                                   data-x="center" data-hoffset="0"
-                                   data-y="center" data-voffset="80"
-                                   data-start="2200"
-                                   data-whitespace="nowrap"
-                                   data-transform_in="y:[100%];s:500;"
-                                   data-transform_out="opacity:0;s:500;"
-                                   style="z-index: 5"
-                                   data-mask_in="x:0px;y:0px;">Get Started Now!</a>
-
                             </li>
 
                             <li data-transition="fade">
@@ -119,20 +106,7 @@
                                      data-y="center" data-voffset="5"
                                      data-start="2000"
                                      style="z-index: 5"
-                                     data-transform_in="y:[100%];opacity:0;s:500;">on the Battlefield</div>
-
-                                <a class="tp-caption btn btn-lg btn-primary btn-slider-action"
-                                   data-hash
-                                   data-hash-offset="85"
-                                   href="#home-intro"
-                                   data-x="center" data-hoffset="0"
-                                   data-y="center" data-voffset="80"
-                                   data-start="2200"
-                                   data-whitespace="nowrap"
-                                   data-transform_in="y:[100%];s:500;"
-                                   data-transform_out="opacity:0;s:500;"
-                                   style="z-index: 5"
-                                   data-mask_in="x:0px;y:0px;">Get Started Now!</a>
+                                     data-transform_in="y:[100%];opacity:0;s:500;">on the Battlefield</div
 
                             </li>
 
@@ -349,7 +323,7 @@
                     </div>
                 </div>
             </div>
-            
+
             {* Leave this in! *} {include file='footer' sandbox='false'}
 	
 		</div>

@@ -1,5 +1,7 @@
-<?php namespace wcf\page;
+<?php
+namespace wcf\page;
 
-class StreamersPage extends AbstractPage {
-  public $activeMenuItem = 'wcf.page.pa.streamers';
+class StreamersPage extends PublicAffairsPage
+{
+    public $activeMenuItem = 'wcf.page.pa.twitch';
 }
