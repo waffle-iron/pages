@@ -1,7 +1,7 @@
 {include file='documentHeader'}
 	<head>
-        <title>{PAGE_TITLE|language}</title>
-		{include file='headInclude'}
+    	<title>{PAGE_TITLE|language}</title>
+			{include file='headInclude'}
 	</head>
 
 	<body{if $templateName|isset} id="tpl{$templateName|ucfirst}"{/if}>
@@ -11,7 +11,7 @@
 
             <div id="landing">
                 <div class="slider-container rev_slider_wrapper" style="height: 700px;">
-                    <div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options='{ "delay": 16100, "gridwidth": 800, "gridheight": 700 }'>
+                    <div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options='{ "delay": 16100, "gridwidth": 800, "gridheight": 700, "sliderLayout": "fullscreen", "fullScreenOffsetContainer": "#header", "minHeight": 600 }'>
                         <ul>
 
                             <li data-transition="fade">
@@ -192,140 +192,319 @@
                     </div>
                 </div>
 
-                {* Only show this if the user is not logged in *}
-                {if true} {* !$__wcf->user->userID && *}
-                    <div class="home-intro" id="home-intro">
-                        <div class="container transparent">
+								<div class="scrollingSection">
+		                {* Only show this if the user is not logged in *}
+		                {if true} {* !$__wcf->user->userID && *}
+		                    <div class="home-intro" id="home-intro">
+		                        <div class="container transparent">
 
-                            <div class="row">
-                                <div class="col-md-8">
+		                            <div class="row">
+		                                <div class="col-md-8">
+		                                    <p>
+		                                        Join our great community <em>today</em>
+		                                        <span>Must be 16+ years old and own Battlefield 1 for PC to apply.</span>
+		                                    </p>
+		                                </div>
+		                                <div class="col-md-4">
+		                                    <div class="mt-lg mb-xl pull-right">
+		                                        <a href="#demos" data-hash="" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="300" style="animation-delay: 300ms;">SIGN UP NOW</a> <span class="appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="600" style="animation-delay: 600ms;"></span>
+		                                    </div>
+		                                </div>
+		                            </div>
+
+		                        </div>
+		                    </div>
+		                {/if}
+
+		                <div class="container transparent longMarginTop">
+		                    <div class="row">
+		                        <div class="col-md-12 center">
+		                            <h2 class="us-theme word-rotator-title mb-sm big">
+                                        Unknown Soldiers is the
+                                            <strong>most
+                                                <span class="word-rotate" data-plugin-options='{ "delay": 2000, "animDelay": 300 }'>
+                                                    <span class="word-rotate-items">
+                                                        <span>fun</span>
+                                                        <span>unique</span>
+                                                        <span>engaging</span>
+                                                    </span>
+                                                </span>
+                                            </strong>
+                                            clan in the battlefield community.
+                                    </h2>
+		                            <p class="lead">We are a Gaming Society dedicated to the Art of Military Realism in support of all of our brothers and sisters in arms who are fighting for our countries.</p>
+		                        </div>
+		                    </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="row mt-xl mb-xl">
+                                <div class="col-md-3">
+                                    <img class="img-responsive mt-xl appear-animation fadeInLeft appear-animation-visible" src="{@$__wcf->getPath()}images/theme/battlefield_1_soldier_render_2.png" style="margin-bottom: -55px;" alt="" data-appear-animation="fadeInLeft">
+                                </div>
+                                <div class="col-md-9">
+                                    <h2 class="mt-xl big">Clan <strong>Principles</strong></h2>
                                     <p>
-                                        Join our great community <em>today</em>
-                                        <span>Must be 16+ years old and own Battlefield 1 for PC to apply.</span>
+                                        Unknown Soldiers is based on a code of conduct based on participation, activity level, customs and courtesies, and respect for the Chain of Command. This code of conduct is expressed in a thorough set of clan regulations that addresses issues all the way from how Recruiters should welcome new members into the clan, what responsibilities fall on our NCO's, and the expectations of every member for how they should carry themselves as a member of our clan.
                                     </p>
                                 </div>
+                            </div>
+		                </div>
+
+                        <section class="section section-default">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <h2 class="big"><strong>Awarding</strong> Members</h2>
+                                        <p>
+                                            Unknown Soldiers not only upholds regulations, but we award members who do and go above and beyond to make sure the clan stays at the top. This is anything from consistent and excellent activity and participation levels, to technical services provided to help maintain our site and servers, to recognizing outstanding contributions over years.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="hidden-xs img-responsive appear-animation fadeInRight appear-animation-visible" style="margin-top: -117px; margin-bottom: -55px;" src="{@$__wcf->getPath()}images/theme/battlefield_1_soldier_render.png" alt="" data-appear-animation="fadeInRight">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <div class="longMarginTop container">
+                            <div class="heading heading-border heading-middle-border heading-middle-border-center center">
+                                <h2 class="big">Branch numbers</h2>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="row mt-xl">
+                                <div class="counters counters-text-dark">
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
+                                            <strong data-to="12">12</strong>
+                                            <label>Air Force</label>
+                                            <p class="text-color-air-force mb-xl">What?</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
+                                            <strong data-to="11">11</strong>
+                                            <label>Army</label>
+                                            <p class="text-color-army mb-xl">Lead the way</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="900">
+                                            <strong data-to="14">14</strong>
+                                            <label>Marine Corps</label>
+                                            <p class="text-color-marines mb-xl">We were here first!</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="1200">
+                                            <strong data-to="20">20</strong>
+                                            <label>Navy</label>
+                                            <p class="text-color-navy mb-xl"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs">In the Navy</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="longMarginTop container">
+                            <div class="heading heading-border heading-middle-border heading-middle-border-center center">
+                                <h2 class="big">Join our Servers.</h2>
+                            </div>
+                        </div>
+
+		                <div class="featured-boxes-full">
+		                    <div class="col-md-4">
+		                        <div class="featured-box-full featured-box-full-quaternary text-centered" style="position:relative;">
+		                            <i class="fa fa-server"></i>
+		                            <h4>=US= 24/7 HC Rush</h4>
+		                            <div class="row marginTop">
+		                                <div class="col-md-6 text-right"><strong>Players Online:</strong></div>
+		                                <div class="col-md-6 text-left">27/32</div>
+		                                <div class="col-md-6 text-right"><strong>Current Map:</strong></div>
+		                                <div class="col-md-6 text-left">Operation Firestorm 2014</div>
+		                                <div class="col-md-6 text-right"><strong>Next Map:</strong></div>
+		                                <div class="col-md-6 text-left">Operation Outbreak</div>
+		                            </div>
+		                            <p class="marginTop">
+		                            <form action="http://battlelog.battlefield.com/bf4/servers/show/pc/4360fbf4-a130-4264-81f0-55f2898bac2c/US-24-7-HC-Rush/">
+		                                <button style="position:absolute;bottom:25px;left:calc(50% - 45px);" type="submit" class="btn btn-3d btn-secondary mr-xs mb-sm">Join now.</button>
+		                            </form>
+		                            </p>
+		                        </div>
+		                    </div>
+		                    <div class="col-md-4">
+		                        <div class="featured-box-full featured-box-full-secondary" style="position:relative;">
+		                            <i class="fa fa-microphone"></i>
+		                            <h4>Teamspeak 3</h4>
+		                            <p>Enjoying our servers? Enhance your experience by hopping onto our Teamspeak and playing with some of our members.</p>
+		                            <p class="marginTop">
+		                            <form action="ts3server://127.0.0.1:25565">
+		                                <button style="position:absolute;bottom:25px;left:calc(50% - 45px);" type="submit" class="btn btn-3d btn-quaternary mr-xs mb-sm">Join now.</button>
+		                            </form>
+		                            </p>
+		                        </div>
+		                    </div>
+		                    <div class="col-md-4">
+		                        <div class="featured-box-full featured-box-full-quaternary text-centered" style="position:relative;">
+		                            <i class="fa fa-server"></i>
+		                            <h4>=US= EU Server</h4>
+		                            <div class="row marginTop">
+		                                <div class="col-md-6 text-right"><strong>Players Online:</strong></div>
+		                                <div class="col-md-6 text-left">24/32</div>
+		                                <div class="col-md-6 text-right"><strong>Current Map:</strong></div>
+		                                <div class="col-md-6 text-left">Siege of Shanghai</div>
+		                                <div class="col-md-6 text-right"><strong>Next Map:</strong></div>
+		                                <div class="col-md-6 text-left">Langcang Dam</div>
+		                            </div>
+		                            <p class="marginTop">
+		                            <form action="http://battlelog.battlefield.com/bf4/servers/show/pc/790cf5ba-b57e-4fbd-b6ce-eb7b60cf54ab/US-EU-Server/">
+		                                <button style="position:absolute;bottom:25px;left:calc(50% - 45px);" type="submit" class="btn btn-3d btn-secondary mr-xs mb-sm">Join now.</button>
+		                            </form>
+		                            </p>
+		                        </div>
+		                    </div>
+		                </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 longMarginTop">
+                                    <hr class="tall">
+                                </div>
+                            </div>
+                            <div class="row">
                                 <div class="col-md-4">
-                                    <div class="mt-lg mb-xl pull-right">
-                                        <a href="#demos" data-hash="" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="300" style="animation-delay: 300ms;">SIGN UP NOW</a> <span class="appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="600" style="animation-delay: 600ms;"></span>
+                                    <div class="testimonial testimonial-style-5">
+                                        <blockquote>
+                                            <p>"It's rare that you find a gaming community that you want to stay up until 4am for. A truly unique experience which is worth giving ago. Such an amazing family here."</p>
+                                        </blockquote>
+                                        <div class="testimonial-arrow-down"></div>
+                                        <div class="testimonial-author">
+                                            <p><strong>CWO3.Sharpz</strong><span>Weird British guy</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="testimonial testimonial-style-5">
+                                        <blockquote>
+                                            <p>"This is honestly, without a doubt, the best clan there is for both casual and hardcore players. Battlefield 4 was fun enough, but the moment I joined =US= it got 100x funner. Whether you're looking for people to talk to in team speak, or want a realistic military experience in battlefield, there is no better clan than the Unknown Soldiers!"</p>
+                                        </blockquote>
+                                        <div class="testimonial-arrow-down"></div>
+                                        <div class="testimonial-author">
+                                            <p><strong>1SG.Hammerwolf53</strong><span>Or someone else, we don't know</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="testimonial testimonial-style-5">
+                                        <blockquote>
+                                            <p>"I had a blast developing our new forum system. It's great, it looks great, I think we did a good job with it. There's many more possibilities to add new stuff, it looks much cleaner and more modern and it really puts us ahead of a lot of other clans"</p>
+                                        </blockquote>
+                                        <div class="testimonial-arrow-down"></div>
+                                        <div class="testimonial-author">
+                                            <p><strong>LT.Padarom</strong><span>Lead Developer Forum Overhaul &amp; Navy CO</span></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
-                        </div>
-                    </div>
-                {/if}
-
-                <div class="container transparent longMarginTop">
-
-                    <div class="row">
-                        <div class="col-md-12 center">
-                            <h2 class="us-theme word-rotator-title mb-sm">Unknown Soldiers is the <strong>most <span class="word-rotate" data-plugin-options='{ "delay": 2000, "animDelay": 300 }'>
-                    <span class="word-rotate-items">
-                        <span>fun</span>
-                        <span>unique</span>
-                        <span>engaging</span>
-                    </span>
-                </span></strong> clan in the battlefield community.</h2>
-                            <p class="lead">We are a Gaming Society dedicated to the Art of Military Realism in support of all of our brothers and sisters in arms who are fighting for our countries.</p>
-                        </div>
-                    </div>
-
-                    <div class="row mt-xl">
-                        <div class="counters counters-text-dark">
-                            <div class="col-md-3 col-sm-6">
-                                <div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
-                                    <strong data-to="12">12</strong>
-                                    <label>Air Force</label>
-                                    <p class="text-color-air-force mb-xl">What?</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
-                                    <strong data-to="11">11</strong>
-                                    <label>Army</label>
-                                    <p class="text-color-army mb-xl">Lead the way</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="900">
-                                    <strong data-to="14">14</strong>
-                                    <label>Marine Corps</label>
-                                    <p class="text-color-marines mb-xl">We were here first!</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="1200">
-                                    <strong data-to="20">20</strong>
-                                    <label>Navy</label>
-                                    <p class="text-color-navy mb-xl"><a href="https://www.youtube.com/watch?v=DLzxrzFCyOs">In the Navy</a></p>
+                            <div class="longMarginTop col-md-12">
+                                <div class="heading heading-border heading-middle-border heading-middle-border-center center">
+                                    <h2 class="big">Upcoming Events</h2>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-12 longMarginTop">
-                        <div class="heading heading-border heading-middle-border heading-middle-border-center center">
-                            <h2>Join our Servers.</h2>
+                        <div class="featured-boxes-full">
+		                    <div class="col-md-3">
+		                        <div class="featured-box-full featured-box-full-secondary text-centered" style="position:relative;">
+		                            <i class="fa fa-crosshairs"></i>
+		                            <h4 class="big"><strong>Marines Practice</strong><br>
+                                        13AUG2016, 10pm EST
+                                    </h4>
+                                    <p>We'll learn how to be barked at by our mascot dog.</p>
+		                            <p class="marginTop">
+		                            <form action="http://battlelog.battlefield.com/bf4/servers/show/pc/4360fbf4-a130-4264-81f0-55f2898bac2c/US-24-7-HC-Rush/">
+		                                <button style="position:absolute;bottom:25px;transform:translate(-50%);" type="submit" class="btn btn-3d btn-quaternary mr-xs mb-sm">Read the POA</button>
+		                            </form>
+		                            </p>
+		                        </div>
+		                    </div>
+		                    <div class="col-md-3">
+		                        <div class="featured-box-full featured-box-full-quaternary text-centered" style="position:relative;">
+		                            <i class="fa fa-crosshairs"></i>
+		                            <h4 class="big"><strong>Navy Practice</strong><br>
+                                        14AUG2016, 2pm EST
+                                    </h4>
+                                    <p>This week we're doing some fancy boat stuff. We like boats!</p>
+		                            <p class="marginTop">
+		                            <form action="http://battlelog.battlefield.com/bf4/servers/show/pc/4360fbf4-a130-4264-81f0-55f2898bac2c/US-24-7-HC-Rush/">
+		                                <button style="position:absolute;bottom:25px;transform:translate(-50%);" type="submit" class="btn btn-3d btn-secondary mr-xs mb-sm">Read the POA</button>
+		                            </form>
+		                            </p>
+		                        </div>
+		                    </div>
+		                    <div class="col-md-3">
+		                        <div class="featured-box-full featured-box-full-secondary text-centered" style="position:relative;">
+		                            <i class="fa fa-crosshairs"></i>
+		                            <h4 class="big"><strong>Army Practice</strong><br>
+                                        17AUG2016, 9pm EST
+                                    </h4>
+                                    <p>Mechanized Infantry practice</p>
+		                            <p class="marginTop">
+		                            <form action="http://battlelog.battlefield.com/bf4/servers/show/pc/4360fbf4-a130-4264-81f0-55f2898bac2c/US-24-7-HC-Rush/">
+		                                <button style="position:absolute;bottom:25px;transform:translate(-50%);" type="submit" class="btn btn-3d btn-quaternary mr-xs mb-sm">Read the POA</button>
+		                            </form>
+		                            </p>
+		                        </div>
+		                    </div>
+		                    <div class="col-md-3">
+		                        <div class="featured-box-full featured-box-full-quaternary text-centered" style="position:relative;">
+		                            <i class="fa fa-crosshairs"></i>
+		                            <h4 class="big"><strong>Air Force Practice</strong><br>
+                                        18AUG2016, 9pm EST
+                                    </h4>
+                                    <p>1stSgt.RTL shows dem sweet tricks and helps you understand Canadian.</p>
+		                            <p class="marginTop">
+		                            <form action="http://battlelog.battlefield.com/bf4/servers/show/pc/4360fbf4-a130-4264-81f0-55f2898bac2c/US-24-7-HC-Rush/">
+		                                <button style="position:absolute;bottom:25px;transform:translate(-50%);" type="submit" class="btn btn-3d btn-secondary mr-xs mb-sm">Read the POA</button>
+		                            </form>
+		                            </p>
+		                        </div>
+		                    </div>
+		                </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 longMarginTop">
+                                    <hr>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+
+                        <section class="parallax section section-text-light section-parallax" data-plugin-parallax data-plugin-options='{ "speed": 2.0 }' data-image-src="{@$__wcf->getPath()}images/theme/homepage_history__1_.png">
+                            <section class="call-to-action">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="call-to-action-content">
+                                                <h3>We have been a part of the <strong>Battlefield Community</strong> for <strong>12 years</strong>.</h3>
+                                                <p>Feel free to take a look at how far we've come.</p>
+                                            </div>
+                                            <div class="call-to-action-btn">
+                                                <a href="{link controller='Timeline'}{/link}" target="_blank" class="btn btn-lg btn-primary">History</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </section>
+		            </div>
                 </div>
 
-                <div class="featured-boxes-full">
-                    <div class="col-md-4">
-                        <div class="featured-box-full featured-box-full-quaternary text-centered" style="position:relative;">
-                            <i class="fa fa-server"></i>
-                            <h4>=US= 24/7 HC Rush</h4>
-                            <div class="row marginTop">
-                                <div class="col-md-6 text-right"><strong>Players Online:</strong></div>
-                                <div class="col-md-6 text-left">27/32</div>
-                                <div class="col-md-6 text-right"><strong>Current Map:</strong></div>
-                                <div class="col-md-6 text-left">Operation Firestorm 2014</div>
-                                <div class="col-md-6 text-right"><strong>Next Map:</strong></div>
-                                <div class="col-md-6 text-left">Operation Outbreak</div>
-                            </div>
-                            <p class="marginTop">
-                            <form action="http://battlelog.battlefield.com/bf4/servers/show/pc/4360fbf4-a130-4264-81f0-55f2898bac2c/US-24-7-HC-Rush/">
-                                <button style="position:absolute;bottom:25px;left:calc(50% - 45px);" type="submit" class="btn btn-3d btn-secondary mr-xs mb-sm">Join now.</button>
-                            </form>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="featured-box-full featured-box-full-secondary" style="position:relative;">
-                            <i class="fa fa-microphone"></i>
-                            <h4>Teamspeak 3</h4>
-                            <p>Enjoying our servers? Enhance your experience by hopping onto our Teamspeak and playing with some of our members.</p>
-                            <p class="marginTop">
-                            <form action="ts3server://127.0.0.1:25565">
-                                <button style="position:absolute;bottom:25px;left:calc(50% - 45px);" type="submit" class="btn btn-3d btn-quaternary mr-xs mb-sm">Join now.</button>
-                            </form>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="featured-box-full featured-box-full-quaternary text-centered" style="position:relative;">
-                            <i class="fa fa-server"></i>
-                            <h4>=US= EU Server</h4>
-                            <div class="row marginTop">
-                                <div class="col-md-6 text-right"><strong>Players Online:</strong></div>
-                                <div class="col-md-6 text-left">24/32</div>
-                                <div class="col-md-6 text-right"><strong>Current Map:</strong></div>
-                                <div class="col-md-6 text-left">Siege of Shanghai</div>
-                                <div class="col-md-6 text-right"><strong>Next Map:</strong></div>
-                                <div class="col-md-6 text-left">Langcang Dam</div>
-                            </div>
-                            <p class="marginTop">
-                            <form action="http://battlelog.battlefield.com/bf4/servers/show/pc/790cf5ba-b57e-4fbd-b6ce-eb7b60cf54ab/US-EU-Server/">
-                                <button style="position:absolute;bottom:25px;left:calc(50% - 45px);" type="submit" class="btn btn-3d btn-secondary mr-xs mb-sm">Join now.</button>
-                            </form>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {* Leave this in! *} {include file='footer' sandbox='false' skipBreadcrumbs=true}
 
-            {* Leave this in! *} {include file='footer' sandbox='false'}
-	
 		</div>
 	</body>
 </html>
