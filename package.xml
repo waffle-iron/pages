@@ -22,6 +22,7 @@
         <instruction type="language">language/*.xml</instruction>
         <instruction type="file">files.tar</instruction>
         <instruction type="template">templates.tar</instruction>
-        <instruction type="pageMenu">pageMenu.xml</instruction>
+        <instruction type="pageMenu">xml/pageMenu.xml</instruction>
+        <instruction type="option">xml/option.xml</instruction>
     </instructions>
 </package>

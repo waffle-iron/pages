@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="https://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="clan.general.news">
+				<parent>clan.general</parent>
+			</category>
+
+			<category name="clan">
+				<parent>clan.landing</parent>
+			</category>
+		</categories>
+		
+		<options>
+			<!-- Board ID for news -->
+			<option name="unkso_news_board_id">
+				<categoryname>clan.general.news</categoryname>
+				<optiontype>WBBBoardSelect</optiontype>
+			</option>
+
+			<!-- How many days worth of news should be shown? -->
+			<option name="unkso_news_days_prune">
+				<categoryname>clan.general.news</categoryname>
+				<optiontype>integer</optiontype>
+				<default>100</default>
+			</option>
+
+			<!-- Branch Numbers -->
+			<option name="unkso_landing_branch_numbers">
+				<categoryname>clan.landing</categoryname>
+				<optiontype>textarea</optiontype>
+			</option>
+
+			<!-- Testimonials -->
+			<option name="unkso_landing_testimonials">
+				<categoryname>clan.landing</categoryname>
+				<optiontype>textarea</optiontype>
+			</option>
+
+			<!-- Upcoming Events -->
+			<option name="unkso_landing_upcoming">
+				<categoryname>clan.landing</categoryname>
+				<optiontype>textarea</optiontype>
+			</option>
+		</options>
+	</import>
+</data>

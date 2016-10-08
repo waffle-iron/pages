@@ -12,9 +12,16 @@ class NewsPage extends AbstractPage
 
     protected function getBoardList()
     {
-        $board = new Board(4);
-        $list = new BoardThreadList($board, 100, array()); // The last array is a label list we can use as categorization
+        $board = new Board(UNKSO_NEWS_BOARD_ID);
+
+        $list = new BoardThreadList($board, UNKSO_NEWS_DAYS_PRUNE, array()); // The last array is a label list we can use as categorization
         $list->readObjects();
+
+        /*
+        echo "<pre>";
+        var_dump($list->objects);
+        echo "</pre>";
+        die();*/
 
         return $list->objects;
     }
