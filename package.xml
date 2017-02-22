@@ -15,7 +15,7 @@
     <requiredpackages>
         <requiredpackage minversion="2.0.7">com.woltlab.wcf</requiredpackage>
         <requiredpackage minversion="4.0.0">com.woltlab.wbb</requiredpackage>
-        <requiredpackage>com.clanunknownsoldiers.plugin.membership</requiredpackage>
+        <requiredpackage minversion="0.0.1">com.clanunknownsoldiers.plugin.membership</requiredpackage>
     </requiredpackages>
 
     <instructions type="install">

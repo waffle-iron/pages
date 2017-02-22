@@ -18,6 +18,13 @@
             <parent>wcf.page.training</parent>
             <controller><![CDATA[wcf\page\TimelinePage]]></controller>
             <position>header</position>
+            <sortorder>5</sortorder>
+        </pagemenuitem>
+
+        <pagemenuitem name="wcf.page.training.promotionrequirements">
+            <parent>wcf.page.training</parent>
+            <controller><![CDATA[wcf\page\PromotionRequirementsPage]]></controller>
+            <position>header</position>
             <sortorder>4</sortorder>
         </pagemenuitem>
 

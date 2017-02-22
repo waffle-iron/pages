@@ -17,13 +17,12 @@ class NewsPage extends AbstractPage
         $list = new BoardThreadList($board, UNKSO_NEWS_DAYS_PRUNE, array()); // The last array is a label list we can use as categorization
         $list->readObjects();
 
-        /*
-        echo "<pre>";
-        var_dump($list->objects);
-        echo "</pre>";
-        die();*/
+        $objects = $list->objects;
+        usort($objects, function ($a, $b) {
+            return ($a->firstPostID > $b->firstPostID) ? -1 : 1;
+        });
 
-        return $list->objects;
+        return $objects;
     }
 
     public function assignVariables()

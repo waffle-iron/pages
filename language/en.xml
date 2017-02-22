@@ -6,4 +6,35 @@
         <item name="wcf.page.pa.twitch">Twitch</item>
         <item name="wcf.page.training.timeline">Timeline</item>
     </category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.category.clan.general.news">News</item>
+        <item name="wcf.acp.option.unkso_news_board_id">News Forum</item>
+        <item name="wcf.acp.option.unkso_news_board_id.description">Any posts from this forum will be used as news</item>
+        <item name="wcf.acp.option.unkso_news_days_prune">Retention time</item>
+        <item name="wcf.acp.option.unkso_news_days_prune.description">Time in days. News posts older than this will not be listed anymore</item>
+
+        <item name="wcf.acp.option.category.clan.landing">Landing Page</item>
+        <item name="wcf.acp.option.unkso_landing_branch_numbers">Branch Numbers Section</item>
+        <item name="wcf.acp.option.unkso_landing_branch_numbers.description"><![CDATA[
+            Currently there are always <u>4</u> entries required (separated by an empty line)<br>
+            [1] User Group ID to use for member count<br>
+            [2] Displayed branch name<br>
+            [3] Displayed subtitle<br>
+            [4] HTML class for subtitle
+        ]]></item>
+        <item name="wcf.acp.option.unkso_landing_testimonials">Testimonials Section</item>
+        <item name="wcf.acp.option.unkso_landing_testimonials.description"><![CDATA[
+            Currently there are always <u>2</u> entries required (separated by an empty line)<br>
+            [1] Text<br>
+            [2] Userrname<br>
+            [3] Subtitle for user
+        ]]></item>
+        <item name="wcf.acp.option.unkso_landing_upcoming">Upcoming Events Section</item>
+        <item name="wcf.acp.option.unkso_landing_upcoming.description"><![CDATA[
+            The branch comes first, placed in its own line, followed by whichever options that should be set, each on their own line<br>
+            - Possible Branches: "Army", "Air Force", "Marines", "Navy"<br>
+            - Lines have to start with either of the following keywords followed by a colon: "Icon", "Title", "Description", "Button", "URL"
+        ]]></item>
+    </category>
 </language>

@@ -72,19 +72,23 @@
 
                                     <a href="{link application='wbb' controller='Thread' object=$thread}{/link}" class="btn btn-primary">Learn More</a>
 
+                                    {hascontent}
                                     <ul>
                                         <li style="margin-top: 20px">
                                             <p><strong>Tags:</strong></p>
 
                                             <ul class="list list-inline list-icons" style="margin-left: 5px">
+                                                {content}
                                                 {foreach from=$tagEngine->getObjectTags('com.woltlab.wbb.thread', $thread->threadID) item=tag}
                                                     <li style="padding-left: 18px; margin-right: 10px; margin-bottom: 0;">
                                                         <i class="fa fa-tag"></i> {$tag->name}
                                                     </li>
                                                 {/foreach}
+                                                {/content}
                                             </ul>
                                         </li>
                                     </ul>
+                                    {/hascontent}
                                 </div>
                             </div>
                         </li>

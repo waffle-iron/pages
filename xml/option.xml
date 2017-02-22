@@ -6,11 +6,11 @@
 				<parent>clan.general</parent>
 			</category>
 
-			<category name="clan">
-				<parent>clan.landing</parent>
+			<category name="clan.landing">
+				<parent>clan</parent>
 			</category>
 		</categories>
-		
+
 		<options>
 			<!-- Board ID for news -->
 			<option name="unkso_news_board_id">
