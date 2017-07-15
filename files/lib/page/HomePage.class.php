@@ -40,6 +40,20 @@ class HomePage extends AbstractPage
 
     protected function getUpcomingEvents()
     {
+        $jsonPath = WCF_DIR . '../3rdparty/events.json';
+        $json = json_decode(file_get_contents($jsonPath), true);
+
+        $defaults = ['icon' => 'fa-crosshairs', 'title' => '', 'summary' => '', 'button' => '', 'url' => ''];
+        $entries = array_slice($json, 0, 4);
+        foreach ($entries as &$entry) {
+            $start = new \DateTime($entry['start']);
+            $entry['date'] = strtoupper($start->format('dMY - g A') . ' EST');
+
+            $entry = array_merge($defaults, $entry);
+        }
+
+        return $entries;
+
         $events = [
             'Navy' => ['date' => strtotime('this Sunday, 2pm')],
             'Air Force' => ['date' => strtotime('this Thursday, 9pm')],
@@ -49,7 +63,6 @@ class HomePage extends AbstractPage
         uasort($events, function ($a, $b) { return ($a['date'] < $b['date']) ? -1 : 1; });
 
         // Set defaults
-        $defaults = ['icon' => 'fa-crosshairs', 'title' => '', 'description' => '', 'button' => '', 'url' => ''];
         foreach ($events as &$event) {
             $time = $event['date'];
             $event['date'] = strtoupper(date('dMY', $time)) . date(', gA', $time) . ' EST';
