@@ -1,0 +1,1 @@
+ALTER TABLE wcf1_user_group ADD groupDisplayCategory VARCHAR(255);

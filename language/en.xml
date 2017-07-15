@@ -7,6 +7,11 @@
         <item name="wcf.page.training.timeline">Timeline</item>
     </category>
 
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.groupDisplayCategory">Team Page Category</item>
+        <item name="wcf.acp.group.groupDisplayCategory.description">Set this to define which team member page this group shows up in.</item>
+    </category>
+
     <category name="wcf.acp.option">
         <item name="wcf.acp.option.category.clan.general.news">News</item>
         <item name="wcf.acp.option.unkso_news_board_id">News Forum</item>
