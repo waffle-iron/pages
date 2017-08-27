@@ -1,5 +1,6 @@
 # com.clanunknownsoldiers.plugin.pages
 [![Build Status](https://travis-ci.org/unkso/pages.svg?branch=master)](https://travis-ci.org/unkso/pages)
+
 The *Pages Package* contains pages that don't require too much functionality of their own. Most of their business logic is taken care of in the controller.
 
 The following pages are currently included:
