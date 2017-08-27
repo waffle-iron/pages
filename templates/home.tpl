@@ -15,54 +15,6 @@
                 <ul>
 
                     <li data-transition="fade">
-                        <img src="{@$__wcf->getPath()}/images/us-theme/slides_they_shall_not_pass.jpg"
-                             alt=""
-                             data-bgposition="center center"
-                             data-bgfit="cover"
-                             data-bgrepeat="no-repeat"
-                             class="rev-slidebg">
-
-                        <div class="tp-caption"
-                             data-x="center" data-hoffset="-160"
-                             data-y="center" data-voffset="-95"
-                             data-start="1000"
-                             style="z-index: 5"
-                             data-transform_in="x:[-300%];opacity:0;s:500;"><img src="{@$__wcf->getPath()}/images/us-theme/slides_title-border.png" alt=""></div>
-
-                        <div class="tp-caption top-label"
-                             data-x="center" data-hoffset="0"
-                             data-y="center" data-voffset="-95"
-                             data-start="500"
-                             style="z-index: 5"
-                             data-transform_in="y:[-300%];opacity:0;s:500;">Coming Soon</div>
-
-                        <div class="tp-caption"
-                             data-x="center" data-hoffset="160"
-                             data-y="center" data-voffset="-95"
-                             data-start="1000"
-                             style="z-index: 5"
-                             data-transform_in="x:[300%];opacity:0;s:500;"><img src="{@$__wcf->getPath()}/images/us-theme/slides_title-border.png" alt=""></div>
-
-                        <div class="tp-caption main-label"
-                             data-x="center" data-hoffset="0"
-                             data-y="center" data-voffset="-45"
-                             data-start="1500"
-                             data-whitespace="nowrap"
-                             data-transform_in="y:[100%];s:500;"
-                             data-transform_out="opacity:0;s:500;"
-                             style="z-index: 5"
-                             data-mask_in="x:0px;y:0px;">THEY SHALL NOT PASS</div>
-
-                        <div class="tp-caption bottom-label"
-                             data-x="center" data-hoffset="0"
-                             data-y="center" data-voffset="5"
-                             data-start="2000"
-                             style="z-index: 5"
-                             data-transform_in="y:[100%];opacity:0;s:500;">March 2017</div>
-
-                    </li>
-
-                    <li data-transition="fade">
                         <img src="{@$__wcf->getPath()}/images/us-theme/slides_bf-1.jpg"
                              alt=""
                              data-bgposition="center center"
