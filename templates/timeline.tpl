@@ -23,6 +23,17 @@
             <section class="timeline" id="timeline">
                 <div class="timeline-body">
                     <div class="timeline-date">
+                        <h3 class="heading-primary">2017</h3>
+                    </div>
+
+                    <article class="timeline-box right">
+                        <div class="portfolio-item">
+                            <h4>September 2017</h4>
+                            <p>Arma 3 and Rainbow Six: Seige added as official clan games to compliment Battlefield 1. This marks the first time the clan has supported more than one official game in nearly 10 years.</p>
+                        </div>
+                    </article>
+
+                    <div class="timeline-date">
                         <h3 class="heading-primary">2016</h3>
                     </div>
 
