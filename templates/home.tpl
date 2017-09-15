@@ -130,7 +130,14 @@
                     <div class="container transparent">
 
                         <div class="row">
-                            <div class="col-md-8">
+                            <div class="col-md-4">
+                                <div class="mt-lg mb-xl pull-left">
+                                    <a href="http://battlefield-clans.com/index.php?a=in&u=UnkSoRecruiting" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible">
+                                        Vote on Battlefield Clans!
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
                                 <p>
                                     Join our great community <em>today</em>
                                     <span>Must be 16+ years old and own Battlefield 1 for PC to apply.</span>
