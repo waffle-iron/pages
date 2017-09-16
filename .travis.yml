@@ -18,7 +18,6 @@ after_success: |
   ftp -n <<FTPTEXT
   open $FTP_HOST
   user $FTP_USER $FTP_PASSWORD
-  passive
   put $IDENTIFIER
   exit
   FTPTEXT
