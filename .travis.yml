@@ -18,6 +18,7 @@ after_success: |
   ftp -n <<EOF
   open $FTP_HOST
   user $FTP_USER $FTP_PASSWORD
+  passive
   put $IDENTIFIER
   exit
-  EOF
+EOF
