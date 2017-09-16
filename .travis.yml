@@ -15,10 +15,10 @@ env:
 notifications:
   email: false
 after_success: |
-  ftp -n <<EOF
+  ftp -n <<FTPTEXT
   open $FTP_HOST
   user $FTP_USER $FTP_PASSWORD
   passive
   put $IDENTIFIER
   exit
-EOF
+  FTPTEXT
