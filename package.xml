@@ -3,7 +3,7 @@
     <packageinformation>
         <packagename>=US= Forum Pages</packagename>
         <packagedescription>Pages (like "Home", "News", "Streamers", ...)</packagedescription>
-        <version>1.1.10</version>
+        <version>1.1.11</version>
         <date>2017-07-15</date>
     </packageinformation>
 
@@ -48,6 +48,10 @@
     </instructions>
 
     <instructions type="update" fromversion="1.1.9">
+        <instruction type="template">templates.tar</instruction>
+    </instructions>
+
+    <instructions type="update" fromversion="1.1.10">
         <instruction type="template">templates.tar</instruction>
     </instructions>
 </package>
