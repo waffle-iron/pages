@@ -215,7 +215,7 @@
                 <div class="row mt-xl">
                     <div class="counters counters-text-dark">
                         {foreach from=$branchNumbers item=$branch}
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-4 col-sm-4">
                                 <div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
                                     <strong data-to="{$branch['number']}">{$branch['number']}</strong>
                                     <label>{$branch['name']}</label>
