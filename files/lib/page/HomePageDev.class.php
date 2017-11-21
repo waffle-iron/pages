@@ -4,7 +4,7 @@ namespace wcf\page;
 use wcf\data\user\group\UserGroupList;
 use wcf\system\WCF;
 
-class HomePageDev extends AbstractPage
+class HomeDevPage extends AbstractPage
 {
     public $activeMenuItem = 'wcf.page.homedev';
 
