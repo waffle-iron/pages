@@ -182,7 +182,7 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="principles-logo">
-                                <img src="/wcf/images/us-theme/logos/unkso-iso.PNG" alt="Unknown Soldiers Logo">
+                                <img src="/wcf/images/us-theme/logos/unkso_iso.PNG" alt="Unknown Soldiers Logo">
                             </div>
                         </div>
                         <div class="col-sm-4">
