@@ -129,24 +129,22 @@
                 <div class="home-intro" id="home-intro">
                     <div class="container transparent">
 
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="mt-lg mb-xl pull-left">
-                                    <a href="http://battlefield-clans.com/index.php?a=in&u=UnkSoRecruiting" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible">
-                                        Vote on Battlefield Clans!
-                                    </a>
-                                </div>
+                        <div class="home-intro-wrapper" style="display: flex; flex-direction: row;">
+                            <div class="mt-lg mb-xl">
+                                <a href="http://battlefield-clans.com/index.php?a=in&u=UnkSoRecruiting" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible">
+                                    Vote on Battlefield Clans!
+                                </a>
                             </div>
-                            <div class="col-md-4">
+                            <div class="intro-center-display">
+                                <div class="into-banner-img">
+                                    <img src="/wcf/images/us-theme/home/join-us-today.png" alt="Join Us Today!" />
+                                </div>
                                 <p>
-                                    Join our great community <em>today</em>
-                                    <span>Must be 16+ years old and own Battlefield 1 for PC to apply.</span>
+                                    <span>Must be 16+ and have of a copy of Battlefield 1, Arma 3, or Rainbow Six: Siege</span>
                                 </p>
                             </div>
-                            <div class="col-md-4">
-                                <div class="mt-lg mb-xl pull-right">
-                                    <a href="thread-add/27/" data-hash="" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="300" style="animation-delay: 300ms;">APPLY NOW</a> <span class="appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="600" style="animation-delay: 600ms;"></span>
-                                </div>
+                            <div class="mt-lg mb-xl">
+                                <a href="thread-add/27/" data-hash="" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="300" style="animation-delay: 300ms;">APPLY NOW</a> <span class="appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="600" style="animation-delay: 600ms;"></span>
                             </div>
                         </div>
 
@@ -158,7 +156,7 @@
                 <div class="row">
                     <div class="col-md-12 center">
                         <h2 class="us-theme word-rotator-title mb-sm big">
-                            Unknown Soldiers is the
+                            UNKNOWN SOLDIERS is the
                             <strong>most
                                 <span class="word-rotate" data-plugin-options='{ "delay": 2000, "animDelay": 300 }'>
                                                     <span class="word-rotate-items">
@@ -175,31 +173,21 @@
                 </div>
             </div>
 
-            <div class="container">
-                <div class="row mt-xl mb-xl">
-                    <div class="col-md-3">
-                        <img class="img-responsive mt-xl appear-animation fadeInLeft appear-animation-visible" src="{@$__wcf->getPath()}images/us-theme/battlefield_1_soldier_render_2.png" style="margin-bottom: -55px;" alt="" data-appear-animation="fadeInLeft">
-                    </div>
-                    <div class="col-md-9">
-                        <h2 class="mt-xl big">Clan <strong>Principles</strong></h2>
-                        <p>
-                            Unknown Soldiers is based on a code of conduct based on participation, activity level, customs and courtesies, and respect for the Chain of Command. This code of conduct is expressed in a thorough set of clan regulations that addresses issues all the way from how Recruiters should welcome new members into the clan, what responsibilities fall on our NCO's, and the expectations of every member for how they should carry themselves as a member of our clan.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <section class="section section-default">
+            <section class="home-principles">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-9">
-                            <h2 class="big"><strong>Awarding</strong> Members</h2>
-                            <p>
-                                Unknown Soldiers not only upholds regulations, but we award members who do and go above and beyond to make sure the clan stays at the top. This is anything from consistent and excellent activity and participation levels, to technical services provided to help maintain our site and servers, to recognizing outstanding contributions over years.
-                            </p>
+                        <div class="col-sm-4">
+                            <h3 class="mt-xl mb-md big">Clan Principles</h3>
+                            <p>UNKSO is based on a code of conduct based on participation, activity level, customs and courtesies, and respect for the Chain of Command. This code of conduct is expressed in a thorough set of clan regulations that addresses issues all the way from how Recruiters should welcome new members into the clan, what responsibilities fall on our NCO's, and the expectations of every member for how they should carry themselves as a member of our clan.</p>
                         </div>
-                        <div class="col-md-3">
-                            <img class="hidden-xs img-responsive appear-animation fadeInRight appear-animation-visible" style="margin-top: -117px; margin-bottom: -55px;" src="{@$__wcf->getPath()}images/us-theme/battlefield_1_soldier_render.png" alt="" data-appear-animation="fadeInRight">
+                        <div class="col-sm-4">
+                            <div class="principles-logo">
+                                <img src="/wcf/images/us-theme/logos/unkso-iso.PNG" alt="Unknown Soldiers Logo">
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <h3 class="mt-xl mb-md big">Awarding Members</h3>
+                            <p>Unknown Soldiers not only upholds regulations, but we award members who do and go above and beyond to make sure the clan stays at the top. This is anything from consistent and excellent activity and participation levels, to technical services provided to help maintain our site and servers, to recognizing outstanding contributions over years.</p>
                         </div>
                     </div>
                 </div>
