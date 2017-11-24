@@ -370,18 +370,13 @@
                 </div>
             </section>
 
-            <section class="parallax section section-text-light section-parallax" data-plugin-parallax data-plugin-options='{ "speed": 2.0 }' data-image-src="{@$__wcf->getPath()}images/us-theme/homepage_history__1_.png">
+            <section class="home-know-our-history">
                 <section class="call-to-action">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="call-to-action-content">
-                                    <h3>We have been a part of the <strong>Battlefield Community</strong> for <strong>12 years</strong>.</h3>
-                                    <p>Feel free to take a look at how far we've come.</p>
-                                </div>
-                                <div class="call-to-action-btn">
-                                    <a href="{link controller='Timeline'}{/link}" target="_blank" class="btn btn-lg btn-primary">History</a>
-                                </div>
+                                <h3>Know Our History</h3>
+                                <a href="{link controller='Timeline'}{/link}" target="_blank" class="btn btn-lg btn-primary">History</a>
                             </div>
                         </div>
                     </div>
