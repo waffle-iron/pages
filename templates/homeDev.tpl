@@ -342,6 +342,34 @@
                 </div>
             </div>
 
+            <section class="home-testimonials">
+                <div class="container">
+                    <div class="testimonial-section-head">
+                        <img src="/wcf/images/us-theme/logos/unkso_logo_iso.PNG" alt="Unknown Soldiers Logo">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="testimonial">
+                                <p class="testimonial-quote">It's rare that you find a gaming community that you want to stay up until 4am for a truly unique experience which is worth giving a go. Such an amazing family here.</p>
+                                <span class="testimonial-speaker">RET.CW04.Sharpz</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="testimonial">
+                                <p class="testimonial-quote">This is honestly, without a doubt, the best clan there is for both casual and hardcore players. Battlefield 4 was fun enough, but the moment I joined =US= it got 100x funner. Whether you're looking for people to talk to in team speak, or want a realistic military experience in battlefield, there is no better clan than the Unknown Soldiers!</p>
+                                <span class="testimonial-speaker">2LT.Hammerwolf53</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="testimonial">
+                                <p class="testimonial-quote">Fought these guys for a long time in the Battlefield franchise over the years. They always kicked my behind. Then I played a few rounds on their squad and realized that was exactly what I was looking for. Happy to be part of this family.</p>
+                                <span class="testimonial-speaker">SSgt.marpla</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="parallax section section-text-light section-parallax" data-plugin-parallax data-plugin-options='{ "speed": 2.0 }' data-image-src="{@$__wcf->getPath()}images/us-theme/homepage_history__1_.png">
                 <section class="call-to-action">
                     <div class="container">
