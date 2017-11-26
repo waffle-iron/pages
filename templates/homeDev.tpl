@@ -140,7 +140,7 @@
                                     <img src="/wcf/images/us-theme/home/join-us-today.png" alt="Join Us Today!" />
                                 </div>
                                 <p>
-                                    <span>Must be 16+ and have of a copy of Battlefield 1, Arma 3, or Rainbow Six: Siege</span>
+                                    <span>Must be 16+ and have of a copy of Battlefield 1, Battlefield 4, or Rainbow Six: Siege</span>
                                 </p>
                             </div>
                             <div class="mt-lg mb-xl">
@@ -173,6 +173,23 @@
                 </div>
             </div>
 
+            <div class="container">
+                <section class="home-units">
+                    <div class="unit">
+                        <img src="/wcf/images/us-theme/home/unkso_unit_bf1.jpg" alt="BF1 Unit" class="unit-primary">
+                        <img src="/wcf/images/us-theme/home/unkso_unit_bf1_hover.jpg" alt="BF1 Unit" class="unit-secondary">
+                    </div>
+                    <div class="unit">
+                        <img src="/wcf/images/us-theme/home/unkso_unit_bf4.jpg" alt="BF4 Unit" class="unit-primary">
+                        <img src="/wcf/images/us-theme/home/unkso_unit_bf4_hover.jpg" alt="BF4 Unit" class="unit-secondary">
+                    </div>
+                    <div class="unit">
+                        <img src="/wcf/images/us-theme/home/unkso_unit_r6.jpg" alt="Rainbow Six Siege Unit" class="unit-primary">
+                        <img src="/wcf/images/us-theme/home/unkso_unit_r6_hover.jpg" alt="Rainbow Six Siege Unit" class="unit-secondary">
+                    </div>
+                </section>
+            </div>
+            
             <section class="home-principles">
                 <div class="container">
                     <div class="row">
