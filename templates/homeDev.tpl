@@ -154,8 +154,8 @@
                 <div class="home-intro" id="home-intro">
                     <div class="container transparent">
 
-                        <div class="home-intro-wrapper" style="display: flex; flex-direction: row;">
-                            <div class="mt-lg mb-xl">
+                        <div class="home-intro-wrapper">
+                            <div class="intro-action">
                                 <a href="http://battlefield-clans.com/index.php?a=in&u=UnkSoRecruiting" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible">
                                     Vote on Battlefield Clans!
                                 </a>
@@ -168,7 +168,7 @@
                                     <span>Must be 16+ and have of a copy of Battlefield 1, Battlefield 4, or Rainbow Six: Siege</span>
                                 </p>
                             </div>
-                            <div class="mt-lg mb-xl">
+                            <div class="intro-action">
                                 <a href="thread-add/27/" data-hash="" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="300" style="animation-delay: 300ms;">APPLY NOW</a> <span class="appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="600" style="animation-delay: 600ms;"></span>
                             </div>
                         </div>
