@@ -398,7 +398,7 @@
             <!-- end know our history -->
 
             <!-- donate -->
-            <div class="container">
+            <div class="container mt-xl">
                 <div class="marginTop">
                     <div class="heading heading-border heading-middle-border heading-middle-border-center center">
                         <h2 class="big">Donate to our clan</h2>
@@ -434,11 +434,16 @@
         </div>
     </div>
 
-    <div class="container text-center social">
-        <a href="https://www.twitch.tv/clanunkso" target="_blank"><i class="fa fa-twitch" style="font-size:3.65em;"></i></a>
-        <a href="https://www.youtube.com/channel/UC_ClK-MWNtP8Lzfn-TbOHMQ" target="_blank"><i class="fa fa-youtube-square fa-4x"></i></a>
-        <a href="https://www.facebook.com/clanunknownsoldiers/" target="_blank"><i class="fa fa-facebook-square fa-4x"></i></a>
-        <a href="https://twitter.com/clanunkso/" target="_blank"><i class="fa fa-twitter-square fa-4x"></i></a>
+    <div class="container text-center social home-social">
+        <a href="https://www.twitch.tv/clanunkso" target="_blank">
+            <i class="fa fa-twitch"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UC_ClK-MWNtP8Lzfn-TbOHMQ" target="_blank">
+            <i class="fa fa-youtube-play"></i>
+        </a>
+        <a href="https://www.facebook.com/clanunknownsoldiers/" target="_blank">
+            <i class="fa fa-facebook"></i>
+        </a>
     </div>
     <!-- end social media -->
 
