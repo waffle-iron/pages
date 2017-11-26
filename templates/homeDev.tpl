@@ -152,7 +152,7 @@
                 </div>
             {/if}
 
-            <div class="container transparent longMarginTop">
+            <div class="container transparent longMarginTop mb-xl">
                 <div class="row">
                     <div class="col-md-12 center">
                         <h2 class="us-theme word-rotator-title mb-sm big">
@@ -173,22 +173,24 @@
                 </div>
             </div>
 
-            <div class="container">
-                <section class="home-units">
-                    <div class="unit">
-                        <img src="/wcf/images/us-theme/home/unkso_unit_bf1.jpg" alt="BF1 Unit" class="unit-primary">
-                        <img src="/wcf/images/us-theme/home/unkso_unit_bf1_hover.jpg" alt="BF1 Unit" class="unit-secondary">
-                    </div>
-                    <div class="unit">
-                        <img src="/wcf/images/us-theme/home/unkso_unit_bf4.jpg" alt="BF4 Unit" class="unit-primary">
-                        <img src="/wcf/images/us-theme/home/unkso_unit_bf4_hover.jpg" alt="BF4 Unit" class="unit-secondary">
-                    </div>
-                    <div class="unit">
-                        <img src="/wcf/images/us-theme/home/unkso_unit_r6.jpg" alt="Rainbow Six Siege Unit" class="unit-primary">
-                        <img src="/wcf/images/us-theme/home/unkso_unit_r6_hover.jpg" alt="Rainbow Six Siege Unit" class="unit-secondary">
-                    </div>
-                </section>
-            </div>
+            <section class="section section-default">
+                <div class="container">
+                    <section class="home-units">
+                        <div class="unit">
+                            <img src="/wcf/images/us-theme/home/unkso_unit_bf1.jpg" alt="BF1 Unit" class="unit-primary">
+                            <img src="/wcf/images/us-theme/home/unkso_unit_bf1_hover.jpg" alt="BF1 Unit" class="unit-secondary">
+                        </div>
+                        <div class="unit">
+                            <img src="/wcf/images/us-theme/home/unkso_unit_bf4.jpg" alt="BF4 Unit" class="unit-primary">
+                            <img src="/wcf/images/us-theme/home/unkso_unit_bf4_hover.jpg" alt="BF4 Unit" class="unit-secondary">
+                        </div>
+                        <div class="unit">
+                            <img src="/wcf/images/us-theme/home/unkso_unit_r6.jpg" alt="Rainbow Six Siege Unit" class="unit-primary">
+                            <img src="/wcf/images/us-theme/home/unkso_unit_r6_hover.jpg" alt="Rainbow Six Siege Unit" class="unit-secondary">
+                        </div>
+                    </section>
+                </div>
+            </section>
             
             <section class="home-principles">
                 <div class="container">
