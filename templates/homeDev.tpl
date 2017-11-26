@@ -36,6 +36,8 @@
                              data-autoplayonlyfirsttime="false"
                              data-nextslideatend="true"
                         ></div>
+
+                        <div class="tp-dottedoverlay tp-opacity-overlay"></div>
                     </li>
                     <!-- end presentation video -->
 
@@ -142,7 +144,6 @@
                              data-mask_in="x:0px;y:0px;">BATTLEFIELD 1</div>
 
                         <div class="tp-dottedoverlay tp-opacity-overlay"></div>
-
                     </li>
                 </ul>
             </div>
@@ -168,7 +169,7 @@
                                     <span>Must be 16+ and have of a copy of Battlefield 1, Battlefield 4, or Rainbow Six: Siege</span>
                                 </p>
                             </div>
-                            <div class="intro-action">
+                            <div class="intro-action text-right">
                                 <a href="/thread-add/27/" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="300" style="animation-delay: 300ms;">APPLY NOW</a> <span class="appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="600" style="animation-delay: 600ms;"></span>
                             </div>
                         </div>
@@ -232,8 +233,10 @@
                             </div>
                         </div>
                         <div class="col-sm-4">
-                            <h3 class="mt-xl mb-md big">Awarding Members</h3>
-                            <p>Unknown Soldiers not only upholds regulations, but we award members who do and go above and beyond to make sure the clan stays at the top. This is anything from consistent and excellent activity and participation levels, to technical services provided to help maintain our site and servers, to recognizing outstanding contributions over years.</p>
+                            <div class="text-right">
+                                <h3 class="mt-xl mb-md big">Awarding Members</h3>
+                                <p>Unknown Soldiers not only upholds regulations, but we award members who do and go above and beyond to make sure the clan stays at the top. This is anything from consistent and excellent activity and participation levels, to technical services provided to help maintain our site and servers, to recognizing outstanding contributions over years.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
