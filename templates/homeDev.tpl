@@ -260,17 +260,7 @@
                 </div>
             </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 ">
-                        <hr class="tall">
-                    </div>
-                </div>
-                <div class="row longMarginTop">
-                    <!-- Testimonials -->
-                </div>
-            </div>
-
+            <!-- events -->
             <div class="container">
                 <div class="longMarginTop col-md-12">
                     <div class="heading heading-border heading-middle-border heading-middle-border-center center">
@@ -278,9 +268,7 @@
                     </div>
                 </div>
             </div>
-
-            <div class="featured-boxes-full">
-                <!-- Events -->
+            <div class="featured-boxes-full row">
                 {foreach from=$events item=$event}
                     <div class="col-md-3">
                         <div class="featured-box-full featured-box-full-{cycle values="secondary,quaternary" name="background"} text-centered" style="position:relative;">
@@ -291,49 +279,34 @@
                             <p>{@$event['description']}</p>
                             {if $event['button']}
                                 <p class="marginTop">
-                                <form action="{$event['url']}">
-                                    <button style="position:absolute;bottom:25px;transform:translate(-50%);" type="submit" class="btn btn-3d btn-{cycle values="secondary,quaternary" name="button"} mr-xs mb-sm">{$event['button']}</button>
-                                </form>
+                                    <form action="{$event['url']}">
+                                        <button style="position:absolute;bottom:25px;transform:translate(-50%);" type="submit" class="btn btn-3d btn-{cycle values="secondary,quaternary" name="button"} mr-xs mb-sm">{$event['button']}</button>
+                                    </form>
                                 </p>
                             {/if}
                         </div>
                     </div>
                 {/foreach}
             </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 longMarginTop">
-                        <hr>
-                    </div>
-                </div>
-            </div>
+            <!-- end events -->
 
             <!-- testimonials -->
-            <section class="home-testimonials">
+            <section class="home-testimonials mt-lg">
                 <div class="container">
                     <div class="testimonial-section-head">
                         <img src="/wcf/images/us-theme/logos/unkso_logo_iso.PNG" alt="Unknown Soldiers Logo">
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="testimonial">
-                                <p class="testimonial-quote">It's rare that you find a gaming community that you want to stay up until 4am for a truly unique experience which is worth giving a go. Such an amazing family here.</p>
-                                <span class="testimonial-speaker">RET.CW04.Sharpz</span>
+                        {foreach from=$testimonials item=$testimonial key=$count}
+                            <div class="col-md-4 {if $count == 0}col-md-offset-2{/if}">
+                                <div class="testimonial">
+                                    <p class="testimonial-quote">{$testimonial['quote']}</p>
+                                    <span class="testimonial-speaker">
+                                        <span>{$testimonial['name']}</span> <span>{@$testimonial['position']}</span>
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="testimonial">
-                                <p class="testimonial-quote">This is honestly, without a doubt, the best clan there is for both casual and hardcore players. Battlefield 4 was fun enough, but the moment I joined =US= it got 100x funner. Whether you're looking for people to talk to in team speak, or want a realistic military experience in battlefield, there is no better clan than the Unknown Soldiers!</p>
-                                <span class="testimonial-speaker">2LT.Hammerwolf53</span>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="testimonial">
-                                <p class="testimonial-quote">Fought these guys for a long time in the Battlefield franchise over the years. They always kicked my behind. Then I played a few rounds on their squad and realized that was exactly what I was looking for. Happy to be part of this family.</p>
-                                <span class="testimonial-speaker">SSgt.marpla</span>
-                            </div>
-                        </div>
+                        {/foreach}
                     </div>
                 </div>
             </section>
