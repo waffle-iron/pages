@@ -180,20 +180,22 @@
             <div class="container transparent longMarginTop mb-xl">
                 <div class="row">
                     <div class="col-md-12 center">
-                        <h2 class="us-theme word-rotator-title mb-sm big">
-                            UNKNOWN SOLDIERS is the
-                            <strong>most
-                                <span class="word-rotate" data-plugin-options='{ "delay": 2000, "animDelay": 300 }'>
+                        <div class="home-word-rotator">
+                            <h2 class="us-theme word-rotator-title mb-sm big">
+                                UNKNOWN SOLDIERS is the
+                                <strong>most
+                                    <span class="word-rotate" data-plugin-options='{ "delay": 2000, "animDelay": 300 }'>
                                                     <span class="word-rotate-items">
                                                         <span>fun</span>
                                                         <span>unique</span>
                                                         <span>engaging</span>
                                                     </span>
                                                 </span>
-                            </strong>
-                            clan in the battlefield community.
-                        </h2>
-                        <p class="lead">We are a Gaming Society dedicated to the Art of Military Realism in support of all of our brothers and sisters in arms who are fighting for our countries.</p>
+                                </strong>
+                                clan in the battlefield community.
+                            </h2>
+                            <p class="lead">We are a Gaming Society dedicated to the Art of Military Realism in support of all of our brothers and sisters in arms who are fighting for our countries.</p>
+                        </div>
                     </div>
                 </div>
             </div>
