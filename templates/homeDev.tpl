@@ -13,6 +13,31 @@
         <div class="slider-container rev_slider_wrapper" style="height: 700px;">
             <div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options='{ "delay": 16100, "gridwidth": 800, "gridheight": 700, "sliderLayout": "fullscreen", "fullScreenOffsetContainer": "#header", "minHeight": 600 }'>
                 <ul>
+                    <!-- presentation video -->
+                    <li data-transition="fade">
+                        <img src="{@$__wcf->getPath()}/images/us-theme/home/unkso_banner_video_cover.png"
+                             alt=""
+                             data-bgposition="center center"
+                             data-bgfit="cover"
+                             data-bgrepeat="no-repeat"
+                             class="rev-slidebg">
+
+                        <div class="rs-background-video-layer"
+                             data-forcerewind="on"
+                             data-volume="mute"
+                             data-videowidth="100%"
+                             data-videoheight="100%"
+                             data-videomp4="{@$__wcf->getPath()}/images/us-theme/home/unkso_banner_intro_video.mp4"
+                             data-videopreload="preload"
+                             data-videoloop="none"
+                             data-forceCover="1"
+                             data-aspectratio="16:9"
+                             data-autoplay="true"
+                             data-autoplayonlyfirsttime="false"
+                             data-nextslideatend="true"
+                        ></div>
+                    </li>
+                    <!-- end presentation video -->
 
                     <li data-transition="fade">
                         <img src="{@$__wcf->getPath()}/images/us-theme/slides_bf-1.jpg"
@@ -222,6 +247,15 @@
                 <div class="row mt-xl">
                     <div class="counters counters-text-dark">
                         <!-- Branch numbers -->
+                        {foreach from=$branchNumbers item=$branch}
+                            <div class="col-md-4 col-sm-4">
+                                <div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
+                                    <strong data-to="{$branch['number']}">{$branch['number']}</strong>
+                                    <label>{$branch['name']}</label>
+                                    <p class="{$branch['color']} mb-xl">{$branch['subtitle']}</p>
+                                </div>
+                            </div>
+                        {/foreach}
                     </div>
                 </div>
             </div>
@@ -247,6 +281,24 @@
 
             <div class="featured-boxes-full">
                 <!-- Events -->
+                {foreach from=$events item=$event}
+                    <div class="col-md-3">
+                        <div class="featured-box-full featured-box-full-{cycle values="secondary,quaternary" name="background"} text-centered" style="position:relative;">
+                            <i class="fa {$event['icon']}"></i>
+                            <h4 class="big"><strong>{$event['summary']}</strong><br>
+                                {@$event['date']}{if $event['title']}<br>"{@$event['title']}"{/if}
+                            </h4>
+                            <p>{@$event['description']}</p>
+                            {if $event['button']}
+                                <p class="marginTop">
+                                <form action="{$event['url']}">
+                                    <button style="position:absolute;bottom:25px;transform:translate(-50%);" type="submit" class="btn btn-3d btn-{cycle values="secondary,quaternary" name="button"} mr-xs mb-sm">{$event['button']}</button>
+                                </form>
+                                </p>
+                            {/if}
+                        </div>
+                    </div>
+                {/foreach}
             </div>
 
             <div class="container">
