@@ -30,8 +30,9 @@ class GroupDisplayCategoryFieldListener implements IParameterizedEventListener
      * @see	IPage::assignVariables()
      */
     protected function assignVariables(UserGroupAddForm $form) {
+        $formGroup = $form->group ?? new \stdClass;
         WCF::getTPL()->assign([
-            'groupDisplayCategory' => $form->group->groupDisplayCategory,
+            'groupDisplayCategory' => $formGroup->groupDisplayCategory ?? '',
         ]);
     }
 
