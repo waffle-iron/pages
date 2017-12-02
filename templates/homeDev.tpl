@@ -36,8 +36,6 @@
                              data-autoplayonlyfirsttime="false"
                              data-nextslideatend="true"
                         ></div>
-
-                        <div class="tp-dottedoverlay tp-opacity-overlay"></div>
                     </li>
                     <!-- end presentation video -->
 
