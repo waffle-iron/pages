@@ -13,6 +13,31 @@
         <div class="slider-container rev_slider_wrapper" style="height: 700px;">
             <div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options='{ "delay": 16100, "gridwidth": 800, "gridheight": 700, "sliderLayout": "fullscreen", "fullScreenOffsetContainer": "#header", "minHeight": 600 }'>
                 <ul>
+                    <!-- presentation video -->
+                    <li data-transition="fade">
+                        <img src="{@$__wcf->getPath()}/images/us-theme/home/unkso_banner_video_cover.png"
+                             alt=""
+                             data-bgposition="center center"
+                             data-bgfit="cover"
+                             data-bgrepeat="no-repeat"
+                             class="rev-slidebg">
+
+                        <div class="rs-background-video-layer"
+                             data-forcerewind="on"
+                             data-volume="mute"
+                             data-videowidth="100%"
+                             data-videoheight="100%"
+                             data-videomp4="{@$__wcf->getPath()}/images/us-theme/home/unkso_banner_intro_video.mp4"
+                             data-videopreload="preload"
+                             data-videoloop="none"
+                             data-forceCover="1"
+                             data-aspectratio="16:9"
+                             data-autoplay="true"
+                             data-autoplayonlyfirsttime="false"
+                             data-nextslideatend="true"
+                        ></div>
+                    </li>
+                    <!-- end presentation video -->
 
                     <li data-transition="fade">
                         <img src="{@$__wcf->getPath()}/images/us-theme/slides_bf-1.jpg"
@@ -117,7 +142,6 @@
                              data-mask_in="x:0px;y:0px;">BATTLEFIELD 1</div>
 
                         <div class="tp-dottedoverlay tp-opacity-overlay"></div>
-
                     </li>
                 </ul>
             </div>
@@ -129,24 +153,22 @@
                 <div class="home-intro" id="home-intro">
                     <div class="container transparent">
 
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="mt-lg mb-xl pull-left">
-                                    <a href="http://battlefield-clans.com/index.php?a=in&u=UnkSoRecruiting" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible">
-                                        Vote on Battlefield Clans!
-                                    </a>
-                                </div>
+                        <div class="home-intro-wrapper">
+                            <div class="intro-action">
+                                <a href="http://battlefield-clans.com/index.php?a=in&u=UnkSoRecruiting" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible">
+                                    Vote on Battlefield Clans!
+                                </a>
                             </div>
-                            <div class="col-md-4">
+                            <div class="intro-center-display">
+                                <div class="into-banner-img">
+                                    <img src="/wcf/images/us-theme/home/join-us-today.png" alt="Join Us Today!" />
+                                </div>
                                 <p>
-                                    Join our great community <em>today</em>
-                                    <span>Must be 16+ years old and own Battlefield 1 for PC to apply.</span>
+                                    <span>Must be 16+ and have of a copy of Battlefield 1, Battlefield 4, or Rainbow Six: Siege</span>
                                 </p>
                             </div>
-                            <div class="col-md-4">
-                                <div class="mt-lg mb-xl pull-right">
-                                    <a href="thread-add/27/" data-hash="" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="300" style="animation-delay: 300ms;">APPLY NOW</a> <span class="appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="600" style="animation-delay: 600ms;"></span>
-                                </div>
+                            <div class="intro-action text-right">
+                                <a href="/thread-add/27/" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="300" style="animation-delay: 300ms;">APPLY NOW</a> <span class="appear-animation fadeInDown appear-animation-visible" data-appear-animation="fadeInDown" data-appear-animation-delay="600" style="animation-delay: 600ms;"></span>
                             </div>
                         </div>
 
@@ -154,52 +176,65 @@
                 </div>
             {/if}
 
-            <div class="container transparent longMarginTop">
+            <div class="container transparent longMarginTop mb-xl">
                 <div class="row">
                     <div class="col-md-12 center">
-                        <h2 class="us-theme word-rotator-title mb-sm big">
-                            Unknown Soldiers is the
-                            <strong>most
-                                <span class="word-rotate" data-plugin-options='{ "delay": 2000, "animDelay": 300 }'>
+                        <div class="home-word-rotator">
+                            <h2 class="us-theme word-rotator-title mb-sm big">
+                                UNKNOWN SOLDIERS is the
+                                <strong>most
+                                    <span class="word-rotate" data-plugin-options='{ "delay": 2000, "animDelay": 300 }'>
                                                     <span class="word-rotate-items">
                                                         <span>fun</span>
                                                         <span>unique</span>
                                                         <span>engaging</span>
                                                     </span>
                                                 </span>
-                            </strong>
-                            clan in the battlefield community.
-                        </h2>
-                        <p class="lead">We are a Gaming Society dedicated to the Art of Military Realism in support of all of our brothers and sisters in arms who are fighting for our countries.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row mt-xl mb-xl">
-                    <div class="col-md-3">
-                        <img class="img-responsive mt-xl appear-animation fadeInLeft appear-animation-visible" src="{@$__wcf->getPath()}images/us-theme/battlefield_1_soldier_render_2.png" style="margin-bottom: -55px;" alt="" data-appear-animation="fadeInLeft">
-                    </div>
-                    <div class="col-md-9">
-                        <h2 class="mt-xl big">Clan <strong>Principles</strong></h2>
-                        <p>
-                            Unknown Soldiers is based on a code of conduct based on participation, activity level, customs and courtesies, and respect for the Chain of Command. This code of conduct is expressed in a thorough set of clan regulations that addresses issues all the way from how Recruiters should welcome new members into the clan, what responsibilities fall on our NCO's, and the expectations of every member for how they should carry themselves as a member of our clan.
-                        </p>
+                                </strong>
+                                clan in the battlefield community.
+                            </h2>
+                            <p class="lead">We are a Gaming Society dedicated to the Art of Military Realism in support of all of our brothers and sisters in arms who are fighting for our countries.</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <section class="section section-default">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h2 class="big"><strong>Awarding</strong> Members</h2>
-                            <p>
-                                Unknown Soldiers not only upholds regulations, but we award members who do and go above and beyond to make sure the clan stays at the top. This is anything from consistent and excellent activity and participation levels, to technical services provided to help maintain our site and servers, to recognizing outstanding contributions over years.
-                            </p>
+                    <section class="home-units">
+                        <div class="unit">
+                            <img src="/wcf/images/us-theme/home/unkso_unit_bf1.jpg" alt="BF1 Unit" class="unit-primary">
+                            <img src="/wcf/images/us-theme/home/unkso_unit_bf1_hover.jpg" alt="BF1 Unit" class="unit-secondary">
                         </div>
-                        <div class="col-md-3">
-                            <img class="hidden-xs img-responsive appear-animation fadeInRight appear-animation-visible" style="margin-top: -117px; margin-bottom: -55px;" src="{@$__wcf->getPath()}images/us-theme/battlefield_1_soldier_render.png" alt="" data-appear-animation="fadeInRight">
+                        <div class="unit">
+                            <img src="/wcf/images/us-theme/home/unkso_unit_bf4.jpg" alt="BF4 Unit" class="unit-primary">
+                            <img src="/wcf/images/us-theme/home/unkso_unit_bf4_hover.jpg" alt="BF4 Unit" class="unit-secondary">
+                        </div>
+                        <div class="unit">
+                            <img src="/wcf/images/us-theme/home/unkso_unit_r6.jpg" alt="Rainbow Six Siege Unit" class="unit-primary">
+                            <img src="/wcf/images/us-theme/home/unkso_unit_r6_hover.jpg" alt="Rainbow Six Siege Unit" class="unit-secondary">
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <section class="home-principles">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h3 class="mt-xl mb-md big">Clan Principles</h3>
+                            <p>UNKSO is based on a code of conduct based on participation, activity level, customs and courtesies, and respect for the Chain of Command. This code of conduct is expressed in a thorough set of clan regulations that addresses issues all the way from how Recruiters should welcome new members into the clan, what responsibilities fall on our NCO's, and the expectations of every member for how they should carry themselves as a member of our clan.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="principles-logo">
+                                <img src="/wcf/images/us-theme/logos/unkso_iso.PNG" alt="Unknown Soldiers Logo">
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="text-right">
+                                <h3 class="mt-xl mb-md big">Awarding Members</h3>
+                                <p>Unknown Soldiers not only upholds regulations, but we award members who do and go above and beyond to make sure the clan stays at the top. This is anything from consistent and excellent activity and participation levels, to technical services provided to help maintain our site and servers, to recognizing outstanding contributions over years.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -214,6 +249,7 @@
             <div class="container">
                 <div class="row mt-xl">
                     <div class="counters counters-text-dark">
+                        <!-- Branch numbers -->
                         {foreach from=$branchNumbers item=$branch}
                             <div class="col-md-4 col-sm-4">
                                 <div class="counter appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
@@ -227,26 +263,66 @@
                 </div>
             </div>
 
-            <div class="longMarginTop container">
-                <div class="heading heading-border heading-middle-border heading-middle-border-center center">
-                    <h2 class="big">Visit us on Social Media</h2>
+            <!-- events -->
+            <div class="container">
+                <div class="longMarginTop col-md-12">
+                    <div class="heading heading-border heading-middle-border heading-middle-border-center center">
+                        <h2 class="big">Upcoming Events</h2>
+                    </div>
                 </div>
             </div>
-
-            <div class="container text-center social">
-                <a href="https://www.twitch.tv/clanunkso" target="_blank"><i class="fa fa-twitch" style="font-size:3.65em;"></i></a>
-                <a href="https://www.youtube.com/channel/UC_ClK-MWNtP8Lzfn-TbOHMQ" target="_blank"><i class="fa fa-youtube-square fa-4x"></i></a>
-                <a href="https://www.facebook.com/clanunknownsoldiers/" target="_blank"><i class="fa fa-facebook-square fa-4x"></i></a>
-                <a href="https://twitter.com/clanunkso/" target="_blank"><i class="fa fa-twitter-square fa-4x"></i></a>
+            <div class="featured-boxes-full row">
+                {foreach from=$events item=$event}
+                    <div class="col-md-3">
+                        <div class="featured-box-full featured-box-full-{cycle values="secondary,quaternary" name="background"} text-centered" style="position:relative;">
+                            <i class="fa {$event['icon']}"></i>
+                            <h4 class="big"><strong>{$event['summary']}</strong><br>
+                                {@$event['date']}{if $event['title']}<br>"{@$event['title']}"{/if}
+                            </h4>
+                            <p>{@$event['description']}</p>
+                            {if $event['button']}
+                                <p class="marginTop">
+                                <form action="{$event['url']}">
+                                    <button style="position:absolute;bottom:25px;transform:translate(-50%);" type="submit" class="btn btn-3d btn-{cycle values="secondary,quaternary" name="button"} mr-xs mb-sm">{$event['button']}</button>
+                                </form>
+                                </p>
+                            {/if}
+                        </div>
+                    </div>
+                {/foreach}
             </div>
+            <!-- end events -->
 
+            <!-- testimonials -->
+            <section class="home-testimonials mt-lg">
+                <div class="container">
+                    <div class="testimonial-section-head">
+                        <img src="/wcf/images/us-theme/logos/unkso_logo_iso.PNG" alt="Unknown Soldiers Logo">
+                    </div>
+                    <div class="row">
+                        {foreach from=$testimonials item=$testimonial key=$count}
+                            <div class="col-md-4 {if $count == 0}col-md-offset-2{/if}">
+                                <div class="testimonial">
+                                    <p class="testimonial-quote">{$testimonial['quote']}</p>
+                                    <span class="testimonial-speaker">
+                                        <span>{$testimonial['name']}</span> <span>{@$testimonial['position']}</span>
+                                    </span>
+                                </div>
+                            </div>
+                        {/foreach}
+                    </div>
+                </div>
+            </section>
+            <!-- end testimonials -->
+
+            <!-- join our servers -->
             <div class="longMarginTop container">
                 <div class="heading heading-border heading-middle-border heading-middle-border-center center">
                     <h2 class="big">Join our Servers</h2>
                 </div>
             </div>
 
-            <div class="featured-boxes-full">
+            <div class="featured-boxes-full row">
                 <div class="col-md-4">
                     <div class="featured-box-full featured-box-full-quaternary text-centered" style="position:relative;">
                         <i class="fa fa-server"></i>
@@ -276,7 +352,7 @@
                         <h4>Teamspeak 3</h4>
                         <p>Enjoying our servers? Enhance your experience by hopping onto our Teamspeak and playing with some of our members.</p>
                         <p style="margin-top:30px;">
-                        <form action="ts3server://{$teamspeak}">
+                        <form action="ts3server://TEST-NOT-REAL">
                             <button style="position:absolute;bottom:45px;left:calc(50% - 45px);" type="submit" class="btn btn-3d btn-quaternary mr-xs mb-sm">Join now.</button>
                             <a style="position:absolute;bottom:25px;text-align:center;width:100%;font-size:12px;left:0;" href="http://www.teamspeak.com/downloads" target="_blank">Don't have Teamspeak? Download here.</a>
                         </form>
@@ -307,39 +383,33 @@
                     </div>
                 </div>
             </div>
+            <!-- end join our servers -->
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 ">
-                        <hr class="tall">
-                    </div>
-                </div>
-                <div class="row longMarginTop">
-                    {foreach from=$testimonials item=$testimonial key=$count}
-                        <div class="col-md-4 {if $count == 0}col-md-offset-2{/if}">
-                            <div class="testimonial testimonial-style-5">
-                                <blockquote>
-                                    <p>{$testimonial['quote']}</p>
-                                </blockquote>
-                                <div class="testimonial-arrow-down"></div>
-                                <div class="testimonial-author">
-                                    <p><strong>{$testimonial['name']}</strong><span>{@$testimonial['position']}</span></p>
-                                </div>
+            <!-- know our history -->
+            <section class="home-know-our-history">
+                <section class="call-to-action">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3>Know Our History</h3>
+                                <a href="{link controller='Timeline'}{/link}" target="_blank" class="btn btn-lg btn-primary">History</a>
                             </div>
                         </div>
-                    {/foreach}
-                </div>
+                    </div>
+                </section>
+            </section>
+            <!-- end know our history -->
 
-                <div class="marginTop col-md-12">
+            <!-- donate -->
+            <div class="container mt-xl">
+                <div class="marginTop">
                     <div class="heading heading-border heading-middle-border heading-middle-border-center center">
                         <h2 class="big">Donate to our clan</h2>
                     </div>
                 </div>
-            </div>
 
-            <div class="container">
-                <div class="row" style="display:flex;align-items:center;">
-                    <div class="col-md-5 col-xs-12 text-center">
+                <div class="home-donation-form">
+                    <div class="paypal-form">
                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHRwYJKoZIhvcNAQcEoIIHODCCBzQCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYCbtt0eayqrK9iut0Vy/whKBS8yj/lLwvBfGHiseyIQXCzZcureQuexaAoQQ9LMUytlXF5Au9YwcHS9M6DNa+AAg+uF0cLQ50h+Plh0XxcTjgmHZuO9FDyqyRI6UBpgylHOVptcaqz+HovH3Jz7lheW9bT3vS/AlvPNl7E6xybWlzELMAkGBSsOAwIaBQAwgcQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIVO4j8tfWW42AgaDyJkaSsAiQw0ZHuB5u0n+WyNKt9gNnVnh+eMITYEX0/+RWDwk9q2WHU6dH68eGYhpdHSbuy8qtCpregMmb+MZ4DHAh+d3V/K/9cfO6DKocp9+qTWhnwJD0Y0olGkFvkALQVeqp+1qf6tuysJUKysFWgP2cqHxoU3Csj/J6HiZ3EffOkLlI7lf25qBfzIVqPI35tzh0nM+MBgkInhzVin7NoIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTMwNDAzMTk0MDIxWjAjBgkqhkiG9w0BCQQxFgQUMcNsB5cAfksEmd1eTOJNTZhAwnQwDQYJKoZIhvcNAQEBBQAEgYBIoTeRw2B06DL0RExZ276oHcH5YVMo4JUkUxYoDiJpjaTJuffEpnJ7nvqf7CXslHsHpNscAygKCUTbBLzk998zjtlmb2NTfKwzAbI0IQsCj/fl1sb9dwaZd9TMQuOgsvrmTQ3AqLn0s3WtwjGtarHLu1eRxvFnb0kbHc1pNLO/2w==-----END PKCS7-----
@@ -348,68 +418,37 @@
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
-                    <div class="col-md-7 col-xs-12" style="color:white;">
-                        <h2>Running servers is expensive.</h2>
+
+                    <div>
+                        <h3>Running servers is expensive.</h3>
                         <p>That's why we rely on donations to provide services to this clan. Those include game servers, teamspeak, our website, domains and more.</p>
-                        <p class="marginTop">We're very thankful for any and all help we can get, so if you want to give something back to this community, please consider donating a small amount.</p>
-                    </div>
-                </div>
-
-                <div class="longMarginTop col-md-12">
-                    <div class="heading heading-border heading-middle-border heading-middle-border-center center">
-                        <h2 class="big">Upcoming Events</h2>
+                        <p>We're very thankful for any and all help we can get, so if you want to give something back to this community, please consider donating a small amount.</p>
                     </div>
                 </div>
             </div>
-
-            <div class="featured-boxes-full">
-                {foreach from=$events item=$event}
-                    <div class="col-md-3">
-                        <div class="featured-box-full featured-box-full-{cycle values="secondary,quaternary" name="background"} text-centered" style="position:relative;">
-                            <i class="fa {$event['icon']}"></i>
-                            <h4 class="big"><strong>{$event['summary']}</strong><br>
-                                {@$event['date']}{if $event['title']}<br>"{@$event['title']}"{/if}
-                            </h4>
-                            <p>{@$event['description']}</p>
-                            {if $event['button']}
-                                <p class="marginTop">
-                                <form action="{$event['url']}">
-                                    <button style="position:absolute;bottom:25px;transform:translate(-50%);" type="submit" class="btn btn-3d btn-{cycle values="secondary,quaternary" name="button"} mr-xs mb-sm">{$event['button']}</button>
-                                </form>
-                                </p>
-                            {/if}
-                        </div>
-                    </div>
-                {/foreach}
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 longMarginTop">
-                        <hr>
-                    </div>
-                </div>
-            </div>
-
-            <section class="parallax section section-text-light section-parallax" data-plugin-parallax data-plugin-options='{ "speed": 2.0 }' data-image-src="{@$__wcf->getPath()}images/us-theme/homepage_history__1_.png">
-                <section class="call-to-action">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="call-to-action-content">
-                                    <h3>We have been a part of the <strong>Battlefield Community</strong> for <strong>12 years</strong>.</h3>
-                                    <p>Feel free to take a look at how far we've come.</p>
-                                </div>
-                                <div class="call-to-action-btn">
-                                    <a href="{link controller='Timeline'}{/link}" target="_blank" class="btn btn-lg btn-primary">History</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </section>
+            <!-- end donate -->
         </div>
     </div>
+
+    <!-- social media -->
+    <div class="longMarginTop container">
+        <div class="heading heading-border heading-middle-border heading-middle-border-center center">
+            <h2 class="big">Visit us on Social Media</h2>
+        </div>
+    </div>
+
+    <div class="container text-center social home-social">
+        <a href="https://www.twitch.tv/clanunkso" target="_blank">
+            <i class="fa fa-twitch"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UC_ClK-MWNtP8Lzfn-TbOHMQ" target="_blank">
+            <i class="fa fa-youtube-play"></i>
+        </a>
+        <a href="https://www.facebook.com/clanunknownsoldiers/" target="_blank">
+            <i class="fa fa-facebook"></i>
+        </a>
+    </div>
+    <!-- end social media -->
 
     {* Leave this in! *} {include file='footer' sandbox='false' skipBreadcrumbs=true}
 
