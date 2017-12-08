@@ -86,63 +86,6 @@
                              data-transform_in="y:[100%];opacity:0;s:500;">on the Battlefield</div
 
                     </li>
-
-                    <li data-transition="fade">
-                        <img src="{@$__wcf->getPath()}/images/us-theme/slides_bf1-2-loading.jpg"
-                             alt=""
-                             data-bgposition="center center"
-                             data-bgfit="cover"
-                             data-bgrepeat="no-repeat"
-                             class="rev-slidebg">
-
-                        <div class="rs-background-video-layer"
-                             data-forcerewind="on"
-                             data-volume="mute"
-                             data-videowidth="100%"
-                             data-videoheight="100%"
-                             data-videomp4="{@$__wcf->getPath()}/images/us-theme/slides_bf1-3.m4v"
-                             data-videopreload="preload"
-                             data-videoloop="none"
-                             data-forceCover="1"
-                             data-aspectratio="16:9"
-                             data-autoplay="true"
-                             data-autoplayonlyfirsttime="false"
-                             data-nextslideatend="true"
-                        ></div>
-
-                        <div class="tp-caption"
-                             data-x="center" data-hoffset="-240"
-                             data-y="center" data-voffset="-25"
-                             data-start="1000"
-                             style="z-index: 5"
-                             data-transform_in="x:[-300%];opacity:0;s:500;"><img src="{@$__wcf->getPath()}/images/us-theme/slides_title-border.png" alt=""></div>
-
-                        <div class="tp-caption top-label"
-                             data-x="center" data-hoffset="0"
-                             data-y="center" data-voffset="-25"
-                             data-start="500"
-                             style="z-index: 5"
-                             data-transform_in="y:[-300%];opacity:0;s:500;">Official Clan Game since October 21st</div>
-
-                        <div class="tp-caption"
-                             data-x="center" data-hoffset="240"
-                             data-y="center" data-voffset="-25"
-                             data-start="1000"
-                             style="z-index: 5"
-                             data-transform_in="x:[300%];opacity:0;s:500;"><img src="{@$__wcf->getPath()}/images/us-theme/slides_title-border.png" alt=""></div>
-
-                        <div class="tp-caption main-label"
-                             data-x="center" data-hoffset="0"
-                             data-y="center" data-voffset="20"
-                             data-start="1500"
-                             data-whitespace="nowrap"
-                             data-transform_in="y:[100%];s:500;"
-                             data-transform_out="opacity:0;s:500;"
-                             style="z-index: 5"
-                             data-mask_in="x:0px;y:0px;">BATTLEFIELD 1</div>
-
-                        <div class="tp-dottedoverlay tp-opacity-overlay"></div>
-                    </li>
                 </ul>
             </div>
         </div>
