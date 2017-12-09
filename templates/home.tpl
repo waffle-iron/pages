@@ -99,7 +99,7 @@
                         <div class="home-intro-wrapper">
                             <div class="intro-action">
                                 <a href="http://battlefield-clans.com/index.php?a=in&u=UnkSoRecruiting" class="btn btn-primary mr-md appear-animation fadeInDown appear-animation-visible">
-                                    Vote on Battlefield Clans!
+                                    VOTE FOR US
                                 </a>
                             </div>
                             <div class="intro-center-display">
@@ -136,7 +136,7 @@
                                 </strong>
                                 clan in the battlefield community.
                             </h2>
-                            <p class="lead">We are a Gaming Society dedicated to the Art of Military Realism in support of all of our brothers and sisters in arms who are fighting for our countries.</p>
+                            <p class="lead2" style="font-size: 1.2em; font-weight: 100;">We are a Gaming Society dedicated to the Art of Military Realism in support of all of our brothers and sisters in arms who are fighting for our countries.</p>
                         </div>
                     </div>
                 </div>
@@ -145,18 +145,18 @@
             <section class="section section-default">
                 <div class="container">
                     <section class="home-units">
-                        <div class="unit">
+                        <a class="unit" href="/board/94-navy-forums">
                             <img src="/wcf/images/us-theme/home/unkso_unit_bf1.jpg" alt="BF1 Unit" class="unit-primary">
                             <img src="/wcf/images/us-theme/home/unkso_unit_bf1_hover.jpg" alt="BF1 Unit" class="unit-secondary">
-                        </div>
-                        <div class="unit">
+                        </a>
+                        <a class="unit" href="/board/95-air-force-forums">
                             <img src="/wcf/images/us-theme/home/unkso_unit_bf4.jpg" alt="BF4 Unit" class="unit-primary">
                             <img src="/wcf/images/us-theme/home/unkso_unit_bf4_hover.jpg" alt="BF4 Unit" class="unit-secondary">
-                        </div>
-                        <div class="unit">
+                        </a>
+                        <a class="unit" href="/board/244-coast-guard-forums">
                             <img src="/wcf/images/us-theme/home/unkso_unit_r6.jpg" alt="Rainbow Six Siege Unit" class="unit-primary">
                             <img src="/wcf/images/us-theme/home/unkso_unit_r6_hover.jpg" alt="Rainbow Six Siege Unit" class="unit-secondary">
-                        </div>
+                        </a>
                     </section>
                 </div>
             </section>
@@ -334,8 +334,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h3>Know Our History</h3>
-                                <a href="{link controller='Timeline'}{/link}" target="_blank" class="btn btn-lg btn-primary">History</a>
+                                <h4 style="font-size: 48px; text-transform: uppercase; margin-bottom: 25px;">Know Our History</h4>
+                                <a href="{link controller='Timeline'}{/link}" target="_blank" class="btn btn-lg btn-primary">Learn More</a>
                             </div>
                         </div>
                     </div>
