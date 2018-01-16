@@ -33,5 +33,12 @@
             <listenerclassname>wcf\system\event\listener\GroupDisplayCategoryFieldListener</listenerclassname>
         </eventlistener>
 
+        <eventlistener name="userRegistrationComplete">
+            <environment>user</environment>
+            <eventname>finalizeAction</eventname>
+            <eventclassname>wcf\data\AbstractDatabaseObjectAction</eventclassname>
+            <listenerclassname>wcf\system\event\listener\UserRegistrationCompleteListener</listenerclassname>
+        </eventlistener>
+
     </import>
 </data>
