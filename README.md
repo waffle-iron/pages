@@ -1,3 +1,4 @@
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/unkso/pages.png?columns=all)](https://waffle.io/unkso/pages?utm_source=badge)
 # com.clanunknownsoldiers.plugin.pages
 [![Build Status](https://travis-ci.org/unkso/pages.svg?branch=master)](https://travis-ci.org/unkso/pages)
 
